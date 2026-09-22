@@ -416,51 +416,6 @@ section:last-of-type {
 }
 
 /* ==========================================================================
-   FEATURED PROJECT TEASER
-   ========================================================================== */
-.featured-project-card {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius);
-  overflow: hidden;
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-}
-
-.project-card-image {
-  background: #f1f5f9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-right: 1px solid var(--border-color);
-}
-
-.project-card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.project-card-body {
-  padding: 2.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.project-card-body h3 {
-  font-size: 1.4rem;
-  margin-bottom: 0.75rem;
-}
-
-.project-card-body p {
-  font-size: 0.95rem;
-  color: var(--text-body);
-  line-height: 1.65;
-  margin-bottom: 1.5rem;
-}
-
-/* ==========================================================================
    CONTACT SECTION
    ========================================================================== */
 .contact-grid {
@@ -694,74 +649,6 @@ textarea.form-control {
   margin-top: 0.2rem;
 }
 
-/* ==========================================================================
-   PROJECT DEEP-DIVE PAGE STYLES - Simple & Clean
-   ========================================================================== */
-.project-hero {
-  padding: 3rem 0 2rem 0;
-  background: var(--bg-surface);
-  border-bottom: 1px solid var(--border-color);
-}
-
-.project-breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  margin-bottom: 1rem;
-}
-
-.project-hero h1 {
-  font-size: 2.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.lead-text {
-  font-size: 1.05rem;
-  color: var(--text-body);
-  max-width: 720px;
-  line-height: 1.65;
-}
-
-.project-meta-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 1rem 0 0 0;
-  margin-top: 1.5rem;
-  border-top: 1px solid var(--border-color);
-}
-
-.meta-field h5 {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.15rem;
-}
-
-.meta-field span {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-main);
-}
-
-.project-main-preview {
-  margin: 2.5rem 0;
-  border-radius: var(--radius);
-  overflow: hidden;
-  border: 1px solid var(--border-color);
-  background: #ffffff;
-}
-
-.project-deepdive-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2.5rem;
-  padding-bottom: 4rem;
-}
-
 .case-study-article h2 {
   font-size: 1.35rem;
   margin: 2rem 0 0.75rem 0;
@@ -853,23 +740,6 @@ textarea.form-control {
   color: var(--text-muted);
 }
 
-/* Sidebar for Project */
-.project-sidebar-card {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius);
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.project-sidebar-card h3 {
-  font-size: 1.05rem;
-  margin-bottom: 1rem;
-  color: var(--primary);
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 0.4rem;
-}
-
 .tech-item {
   display: flex;
   justify-content: space-between;
@@ -921,9 +791,7 @@ textarea.form-control {
 @media (max-width: 860px) {
   .hero-grid,
   .about-grid,
-  .featured-project-card,
   .resume-body-grid,
-  .project-deepdive-grid,
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
